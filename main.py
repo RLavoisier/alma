@@ -122,7 +122,7 @@ if __name__ == "__main__":
             print("Everyone is ready to work !")
             try:
                 work_session_duration = int(
-                    input("How long in second should be this work session ?")
+                    input("How long in second should this work session be ?")
                 )
             except ValueError:
                 print("Uhhhhh...We'll just habe a bank holliday then...")
