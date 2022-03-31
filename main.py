@@ -114,9 +114,9 @@ if __name__ == "__main__":
             print(stock)
         elif choice == 5:
             print("Your Foobar product list contains:")
-            for foobar in stock.foobar:
+            for foobar in stock.foobar_list:
                 print(foobar)
-            if not stock.foobar():
+            if not stock.foobar_list:
                 print("Sadly...Nothing...")
         elif choice == 6:
             print("Everyone is ready to work !")
